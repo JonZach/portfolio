@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Me</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/960.css"/>
+		<link rel="stylesheet" href="css/reset.css"/>
+		<link rel="stylesheet" href="css/demo.css"/>
+		<link rel="stylesheet" href="css/text.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	</head>
+	<body>
+		<div class="main">
+			<div class="top">
+				<ul>
+					<li><a class="name" href="#zach"><br/>john<br/>zach</a></li>
+					<li><a class="name" id="work" href="#"><br/>my<br/>projects</a></li>
+					<li><a class="name" id="find" href="#"><br/>find<br/>me</a></li>
+					<li><a class="name" id="cow" href="#"><br/>holy<br/>cow</a></li>
+				</ul>
+				<blockquote>
+					<p>"The purpose of life is not to be happy - but to matter,<br/>to be helpful, and to have it make some difference that you have lived at all."</p>
+				</blockquote>
+			</div>
+			<div id="zach">
+				<section id="about">
+					<h3>who?</h3>
+					<p>i'm a native Nashvillian.</p>
+				</section>
+			</div>
+		<script src="jquery.js"></script>
+		<script src="fredhq-roundabout-d8cc98c/jquery.roundabout.js"></script>
+		<script>
+   			$(document).ready(function() {
+      			$('ul').roundabout();
+   			});
+   
+		   $(document).ready(function() {
+		      $('ul').roundabout({
+		         autoplay: true,
+		         autoplayDuration: 2400,
+		         autoplayPauseOnHover: true
+
+		      });
+		   });
+		</script>

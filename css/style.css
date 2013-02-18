@@ -1,0 +1,97 @@
+body{
+	background: black;
+}
+.top{
+	background-image: url("../img/barrells.jpg");
+	height: 775px;
+	width: 1238px;
+	margin: auto;
+}
+
+.container_12{
+	opacity: 0.10;
+}
+
+
+.name{
+	display:block;
+	width:300px;
+	height:300px;
+	border-radius:160px;
+	font-size:70px;
+	color:white;
+	line-height:60px;
+	text-shadow:0 1px 0 #666;
+	text-align:center;
+	text-decoration:none;
+	box-shadow:1px 1px 2px #000;
+	background:#0000ff;
+	opacity:0.60;
+	padding-top: 15px;
+	position: center;
+	margin: auto;
+
+}
+
+.name:hover{color:#eee;
+	text-shadow:0 0 1px #666;
+	text-decoration:none;
+	box-shadow:0 0 6px #222 inset;
+	opacity: 0.85;
+}
+
+#work{
+	background: #cc0000;
+}
+
+#find{
+	background:#9900ff;
+}
+
+#cow{
+	background:#999999;
+}
+.roundabout-holder {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      height: 15em;
+      width: 15em;
+}
+.roundabout-moveable-item {
+  height: 4em;
+  width: 4em;
+  cursor: pointer;
+  background-color:;
+}
+.roundabout-in-focus {
+  cursor: auto;
+}
+
+#zach{
+	background-image: url("../img/nashville.jpg");
+	width: 1238px;
+	height: 775px;
+	margin: auto;
+}
+
+#about{
+	margin: auto;
+	padding-top: 50px;
+	margin-bottom: 100px;
+	width: 800px;
+	height: 250px;
+	text-align: center;
+	background: #cccbbb;
+	opacity: 0.40;
+	border-radius: 10px;
+}
+
+blockquote p{
+	margin-top: 250px;
+	text-align: right;
+	border: none;
+	color: white;
+	font-size: 35px;
+	opacity: 0.85;
+}
